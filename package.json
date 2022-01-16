@@ -1,0 +1,28 @@
+{
+  "name": "@hieunguyen12/mypackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "@hieunguyen12/mypackage": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^8.3.0",
+    "execa": "^5.1.1",
+    "git-config-path": "^2.0.0",
+    "github-username": "^5.0.1",
+    "globby": "^11.0.4",
+    "inquirer": "^8.2.0",
+    "ora": "^5.1.0",
+    "parse-git-config": "^3.0.0",
+    "validate-npm-package-license": "^3.0.4",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
