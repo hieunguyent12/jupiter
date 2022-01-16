@@ -6,4 +6,11 @@ Usage:
 npx @hieunguyen12/jupiter
 ```
 
+### Todo
+
+- Add support for Windows path
+- Support for React
+- Support for Typescript
+- Add tests
+
 Credits to: https://github.com/transitive-bullshit/create-react-library
