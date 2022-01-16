@@ -1,10 +1,10 @@
 {
-  "name": "@hieunguyen12/mypackage",
+  "name": "@hieunguyen12/jupiter",
   "version": "1.0.0",
   "description": "",
   "main": "cli.js",
   "bin": {
-    "@hieunguyen12/mypackage": "./lib/cli.js"
+    "@hieunguyen12/jupiter": "./lib/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
