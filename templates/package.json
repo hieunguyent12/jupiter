@@ -1,6 +1,21 @@
 {
-  "scripts": {},
-  "dependencies": {
-    "react": "^17.0.0"
+  "name": "{{packageName}}",
+  "description": "{{description}}",
+  "private": "false",
+  "license": "{{license}}",
+  "author": "{{author}}",
+  "source": "src/index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.modern.js",
+  "unpkg": "dist/index.umd.js",
+  "devDependencies": {
+    "microbundle": "latest"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch"
   }
 }
